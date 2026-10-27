@@ -36,7 +36,7 @@
   <p>Your records stay on your phone. FinWallet has no accounts, no servers, no ads and no analytics, does not use the internet, and does not collect or share your personal information.</p>
 
   <h2>What the app stores</h2>
-  <p>Everything you enter (income and spending records, accounts, transfers, budgets, recurring records, categories) and your settings (theme, language, date format, first day of the month) are saved only in the app's private storage on your device. Sandaur Apps cannot see them.</p>
+  <p>Everything you enter (income and spending records, accounts, transfers, budgets, recurring records, categories) and your settings (theme, language, date format, first day of the month), and the images you attach to records (such as a receipt photo), are saved only in the app's private storage on your device. Sandaur Apps cannot see them.</p>
 
   <h2>What the app does not do</h2>
   <ul>
@@ -49,8 +49,12 @@
   <h2>Google Play statistics</h2>
   <p>Google Play may give developers aggregated reports, such as crashes and performance (Android vitals), from users who chose to share that data in their device settings. Sandaur Apps receives no personal information through these reports.</p>
 
+  <h2>Scanning receipts</h2>
+  <p>To scan a receipt, FinWallet opens your phone's own camera app. The photo is read on your phone to find the total and the shop's name, using Google's ML Kit text recognition, a library whose model is part of the app, so it works without internet and the photo is not sent anywhere. FinWallet keeps the photo only as an image of the record you save, in the app's private storage. If you cancel the form or take the photo off, it is deleted; you can also remove it from the record at any time. The app does not use the internet, so nothing the reader processes can leave your phone. You can also share an image to FinWallet from another app (for example the screenshot of a digital receipt): it is read the same way, and only when you choose to share it.</p>
+
   <h2>Permissions</h2>
   <ul>
+    <li><strong>Camera:</strong> the app asks for no camera permission, because your camera app takes the photo and hands it back.</li>
     <li><strong>Notifications:</strong> to remind you of recurring records that were added or are waiting for you. They are created on your phone by the app itself; no notification server is involved. You can turn them off in Settings.</li>
     <li><strong>Screen lock or biometrics:</strong> when you delete an account with many records, the app asks Android to verify you with your fingerprint, face or screen lock. Android performs the check; FinWallet never receives your biometric data or PIN.</li>
   </ul>
@@ -90,7 +94,7 @@
   <p>Tus registros se quedan en tu teléfono. FinWallet no tiene cuentas, servidores, anuncios ni analíticas, no usa internet, y no recopila ni comparte tu información personal.</p>
 
   <h2>Qué guarda la aplicación</h2>
-  <p>Todo lo que ingresas (registros de ingresos y gastos, cuentas, transferencias, presupuestos, registros recurrentes, categorías) y tus ajustes (tema, idioma, formato de fecha, primer día del mes) se guardan solo en el almacenamiento privado de la app en tu dispositivo. Sandaur Apps no puede verlos.</p>
+  <p>Todo lo que ingresas (registros de ingresos y gastos, cuentas, transferencias, presupuestos, registros recurrentes, categorías) y tus ajustes (tema, idioma, formato de fecha, primer día del mes), y las imágenes que adjuntas a los registros (como la foto de una boleta), se guardan solo en el almacenamiento privado de la app en tu dispositivo. Sandaur Apps no puede verlos.</p>
 
   <h2>Qué no hace la aplicación</h2>
   <ul>
@@ -103,8 +107,12 @@
   <h2>Estadísticas de Google Play</h2>
   <p>Google Play puede entregar a los desarrolladores informes agregados, como fallos y rendimiento (Android vitals), de los usuarios que eligieron compartir esos datos en los ajustes de su dispositivo. Sandaur Apps no recibe información personal a través de esos informes.</p>
 
+  <h2>Escaneo de boletas</h2>
+  <p>Para escanear una boleta, FinWallet abre la app de cámara de tu teléfono. La foto se lee en tu teléfono para encontrar el total y el nombre del comercio, con el reconocimiento de texto ML Kit de Google, una biblioteca cuyo modelo forma parte de la app, así que funciona sin internet y la foto no se envía a ninguna parte. FinWallet guarda la foto solo como imagen del registro que guardas, en el almacenamiento privado de la app. Si cancelas el formulario o quitas la foto, se elimina; también puedes quitarla del registro cuando quieras. La app no usa internet, así que nada de lo que procesa el lector puede salir de tu teléfono. También puedes compartir una imagen con FinWallet desde otra app (por ejemplo la captura de una boleta digital): se lee de la misma forma, y solo cuando tú eliges compartirla.</p>
+
   <h2>Permisos</h2>
   <ul>
+    <li><strong>Cámara:</strong> la app no pide permiso de cámara, porque la foto la toma tu app de cámara y se la devuelve.</li>
     <li><strong>Notificaciones:</strong> para avisarte de registros recurrentes que se agregaron o que esperan tu confirmación. La app las crea en tu teléfono; no interviene ningún servidor de notificaciones. Puedes desactivarlas en Ajustes.</li>
     <li><strong>Bloqueo de pantalla o biometría:</strong> al eliminar una cuenta con muchos registros, la app pide a Android que te verifique con tu huella, rostro o bloqueo de pantalla. La verificación la hace Android; FinWallet nunca recibe tus datos biométricos ni tu PIN.</li>
   </ul>
