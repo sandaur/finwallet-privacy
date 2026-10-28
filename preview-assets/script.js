@@ -140,6 +140,8 @@
       desc:`FinWallet infographic: log fast, know how you're doing this month and keep all your data on your phone.`,
       text:{
         [`por Sandaur Apps`]:`by Sandaur Apps`,
+        [`Inscríbete en la beta`]:`Join the beta`,
+        [`Prueba cerrada de 14 días para Android`]:`14-day closed test for Android`,
         [`Entiende a dónde se va tu`]:`Understand where your `,
         [`plata`]:`money`,
         [`, sin entregar tus datos.`]:` goes, without handing over your data.`,

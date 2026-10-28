@@ -25,6 +25,14 @@ h2{font-size:clamp(26px,5vw,36px);line-height:1.18;margin:8px 0 16px;letter-spac
 .hero h1{font-size:clamp(32px,7vw,52px);line-height:1.08;margin:32px 0 16px;letter-spacing:-.02em;max-width:16ch}
 .hero h1 em{font-style:normal;color:#FFD3DA}
 .hero p.lead{color:#EDE3FF}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.hero-cta{display:flex;align-items:center;flex-wrap:wrap;gap:12px 20px;margin:28px 0 8px}
+.cta-btn{display:inline-block;background:#fff;color:var(--p-dark);font-weight:800;font-size:18px;text-decoration:none;padding:14px 28px;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.25);transition:transform .15s}
+.cta-btn:hover{transform:translateY(-2px)}
+.cta-btn:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
+.cta-btn:after{content:" \2193"}
+.hero-cta span{font-size:15px;color:#EDE3FF}
 .pills{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 32px}
 .pill{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);padding:8px 16px;border-radius:999px;font-weight:600;font-size:15px}
 .hero-phones{display:flex;justify-content:center;gap:24px;align-items:flex-end;margin-top:8px}
