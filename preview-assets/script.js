@@ -141,7 +141,7 @@
       text:{
         [`por Sandaur Apps`]:`by Sandaur Apps`,
         [`Inscríbete en la beta`]:`Join the beta`,
-        [`Prueba cerrada de 14 días para Android`]:`14-day closed test for Android`,
+        [`Beta por invitación para Android`]:`Invite-only beta for Android`,
         [`Entiende a dónde se va tu`]:`Understand where your `,
         [`plata`]:`money`,
         [`, sin entregar tus datos.`]:` goes, without handing over your data.`,
@@ -244,11 +244,11 @@
     var forms={
       es:{id:'1FAIpQLSe-8Pz-qVW5PoCmFfUaBqH-xhTHlCdVLZGRiILD4VmTOSrOlQ',short:'https://forms.gle/RLWCXSUk7usi4oyD7',
         eyebrow:'Beta cerrada',title:'Ordena tu plata a tu ritmo',
-        lead:'Estamos probando FinWallet con un grupo pequeño durante 14 días. Si tienes un teléfono Android, inscríbete y te escribimos con el enlace para unirte.',
+        lead:'Estamos probando FinWallet con un grupo pequeño. Si tienes un teléfono Android, inscríbete y te escribimos con el enlace para unirte.',
         open:'Abrir el formulario en una pestaña nueva',frameTitle:'Formulario de inscripción a la beta de FinWallet'},
       en:{id:'1FAIpQLSf7I_Pg46lgwJYVelKPTx0E0neQKedCh6JrmpL6lmrBTOqQ3Q',short:'https://forms.gle/Dy8DLkjbpzyfeKKm8',
         eyebrow:'Closed beta',title:'Get your money in order, at your own pace',
-        lead:'We are testing FinWallet with a small group for 14 days. If you have an Android phone, sign up and we will write to you with the link to join.',
+        lead:'We are testing FinWallet with a small group. If you have an Android phone, sign up and we will write to you with the link to join.',
         open:'Open the form in a new tab',frameTitle:'FinWallet beta signup form'}
     };
 
