@@ -13,9 +13,15 @@
 
 <header class="hero">
   <div class="wrap">
-    <div class="brand">
-      <img src="preview-assets/pantallas/icono.png" alt="Ícono de FinWallet: una boleta con una insignia de verificación sobre fondo morado" width="64" height="64">
-      <div><b>FinWallet</b><span>por Sandaur Apps</span></div>
+    <div class="toprow">
+      <div class="brand">
+        <img src="preview-assets/pantallas/icono.png" alt="Ícono de FinWallet: una boleta con una insignia de verificación sobre fondo morado" width="64" height="64">
+        <div><b>FinWallet</b><span>por Sandaur Apps</span></div>
+      </div>
+      <div class="lang" role="group" aria-label="Idioma de la página / Page language">
+        <button type="button" data-lang="es" aria-pressed="true">Español</button>
+        <button type="button" data-lang="en" aria-pressed="false">English</button>
+      </div>
     </div>
     <h1>Entiende a dónde se va tu <em>plata</em>, sin entregar tus datos.</h1>
     <p class="lead">Una app para ordenar tus finanzas personales sin complicarte: registras en segundos, ves cómo vas en el mes y todo se queda en tu teléfono.</p>
@@ -170,9 +176,15 @@
   </div>
 </section>
 
-<section class="cta">
+<section class="cta" id="beta">
   <div class="wrap">
-    <h2 class="rv">Ordena tu plata a tu ritmo</h2>
+    <p class="eyebrow rv" id="beta-eyebrow">Beta cerrada</p>
+    <h2 class="rv" id="beta-title">Ordena tu plata a tu ritmo</h2>
+    <p class="lead rv" id="beta-lead">Estamos probando FinWallet con un grupo pequeño durante 14 días. Si tienes un teléfono Android, inscríbete y te escribimos con el enlace para unirte.</p>
+    <div class="form-box">
+      <iframe id="beta-form" title="Formulario de inscripción a la beta de FinWallet" width="640" height="910" loading="lazy">Cargando…</iframe>
+    </div>
+    <p class="note"><a id="beta-open" href="https://forms.gle/RLWCXSUk7usi4oyD7" target="_blank" rel="noopener">Abrir el formulario en una pestaña nueva</a></p>
   </div>
 </section>
 </main>
